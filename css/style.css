@@ -1,0 +1,74 @@
+/*
+
+Author  : Azra
+Type    : Style
+
+*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oxygen', sans-serif;
+}
+
+#singkat {
+    text-align: center;
+}
+
+#profile {
+    padding: 70px;
+    display: flex;
+}
+
+#profile-item {
+    width: 50%;
+}
+
+#profile-item p {
+	line-height: 30px;
+	color:  #4c4c4c;
+	font-size: 20px;
+    text-align: justify;
+}
+
+.hubungi {
+	padding: 12px 32px;
+	background-color: #ffffff ;
+	color: rgb(180, 208, 249);
+	margin-top: 16px;
+	border-radius: 32px;
+	border: 1px solid rgb(180, 208, 249);
+	transition: 0.3s;
+}
+
+.hubungi:hover {
+	box-shadow: 0px 5px 10px rgb(180, 208, 249);
+	background-color: rgb(180, 208, 249);
+    color: white;
+    cursor: pointer;
+	transition: 
+}
+
+.tanya {
+	padding: 12px 32px;
+	background-color: rgb(180, 208, 249) ;
+	color: white;
+	margin-top: 16px;
+    border: 1px solid rgb(180, 208, 249);
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+	transition: 0.3s;
+}
+
+.tanya:hover {
+	box-shadow: 0px 5px 10px rgb(180, 208, 249);
+	background-color: white;
+    color: rgb(180, 208, 249);
+    cursor: pointer;
+	transition: 
+}
+
+footer {
+    background-color: rgb(180, 208, 249);
+    padding: 30px;
+}
+ 

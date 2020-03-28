@@ -1,0 +1,16 @@
+
+V.0.0.1
+- Index Home
+	- Navbar
+		- Home, tentang saya, kontak saya
+	- Profil Singkat
+		- img, text
+	- Search bar
+		- search box (input), button
+- Tentang Saya
+	- Profil
+		-text, img
+	- Kemampuan
+		-cards, img, text
+	- Footer
+		-button
