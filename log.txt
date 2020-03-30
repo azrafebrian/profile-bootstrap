@@ -1,5 +1,5 @@
 
-V.0.0.1
+V.0.0.1.
 - Index Home
 	- Navbar
 		- Home, tentang saya, kontak saya
@@ -14,3 +14,8 @@ V.0.0.1
 		-cards, img, text
 	- Footer
 		-button
+
+V.0.0.1.1
+- Footer
+	- Footer in home & tentang saya
+	- Copyright, linked to github
