@@ -24,3 +24,14 @@ V.0.0.1.2
 - Tentang Saya
 	- Kemampuan
 		- Programming, Menggambar, Menulis
+
+V.0.0.2.
+- Index
+	- New look
+		- Added containers, Sign In form
+- Header
+	- Header in home & tentang saya changed for respons
+- Language
+	- Switched header words to English
+		- kontak saya = Contact
+		- tentang saya = About Me
