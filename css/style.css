@@ -5,9 +5,20 @@ Type    : Style
 
 */
 
-body {
-    background-color: rgb(255, 255, 255);
+/*
+<body {
+	background-image: url('../img/bg2.png');
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+	height: 100%;
     font-family: 'Oxygen', sans-serif;
+}
+*/
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #ffffff;
 }
 
 #singkat {
@@ -68,7 +79,13 @@ body {
 }
 
 footer {
-    background-color: rgb(180, 208, 249);
     padding: 30px;
 }
- 
+
+#socialmedialabel {
+	cursor: pointer;
+}
+
+footer hr {
+	border-color: #b4b4b4;
+}

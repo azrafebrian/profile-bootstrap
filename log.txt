@@ -35,3 +35,18 @@ V.0.0.2.
 	- Switched header words to English
 		- kontak saya = Contact
 		- tentang saya = About Me
+
+V.0.0.2.1.
+- Credit
+	- Added new page, Credit
+
+- Footer
+	- Complete Footer in Index, Aboutme, Contact, and Credit
+	- New dark style
+	- Contains About, Menu, Support
+	- New Copyright
+
+- Header
+	- Re-arranging buttons
+		- Contact and Aboutme to the right
+		- Added some padding

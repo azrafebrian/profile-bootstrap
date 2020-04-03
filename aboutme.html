@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
 
         <!--Title-->
-        <title>Muhammad Azra Febrian (Ask Azra)</title>
+        <title>Ask Azra: About Me</title>
     </head>
     
     <body>
@@ -27,7 +27,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <!--Logo & Home Button-->
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand pl-5" href="index.html">
           <img src="img/logo.png" width="200px" alt="#">
         </a>
     
@@ -38,7 +38,7 @@
         
         <!--Contact & About Me-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto nav-item active">
+            <ul class="navbar-nav ml-auto pr-5 nav-item active">
               <li>
                   <a class="nav-link" href="contactme.html">Contact <span class="sr-only">(current)</span></a>
               </li>
@@ -98,11 +98,77 @@
     </body>
 
     <br><br>
-    <footer class="footer page-footer font-small darken-3">
+    <!--Footer-->
+    <footer class="footer bg-dark page-footer font-small darken-3">
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center font-weight-bold py-3">© 2020 Copyright:
-        <a class="text-dark text-decoration-none" href="https://github.com/vewofdots"> Muhammad Azra Febrian</a>
+      <!--About, Menu, and Support-->
+      <div class="container-fluid bg-dark">
+          <div class="row">
+              <div class="col-7">
+                  <!--About-->
+                  <h5 class="text-uppercase font-weight-bold text-light pb-2">
+                      About
+                  </h5>
+                  <p class="text-justify text-light pr-5 mr-5">Ask Azra merupakan sebuah proyek web yang saat ini sedang dalam tahap rancangan oleh Muhammad Azra Febrian, seorang mahasiswa Teknologi Rekayasa Perangkat Lunak, Sekolah Vokasi, Universitas Gadjah Mada.</p>
+                  <p class="text-justify text-light pr-5 mr-5">Ask Azra dapat digunakan untuk mendapatkan jawaban terbaik (semampu Azra) dari pertanyaan anda. Jangan berharap lebih, karena jawaban yang anda terima bukanlah berasal dari para ahli.</p>
+              </div>
+              <div class="col-2 display-block">
+                  <!--Menu-->
+                  <h5 class="text-uppercase font-weight-bold text-light pb-2">
+                      Menu
+                  </h5>
+                  <ul class="list-unstyled my-2">
+                      <li>
+                          <p>
+                              <a href="index.html" class="text-decoration-none text-light pt-2">Home</a>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              <a href="aboutme.html" class="text-decoration-none text-light pt-2">About Me</a>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              <a href="contactme.html" class="text-decoration-none text-light pt-2">Contact</a>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              <a href="credit.html" class="text-decoration-none text-light pt-2">Credit</a>
+                          </p>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col" data-toggle="tooltip">
+                  <!--Support-->
+                  <h5 class="text-uppercase font-weight-bold text-light pb-2">
+                      Support
+                  </h5>
+                  <ul class="list-unstyled my-2">
+                      <li>
+                          <p title="ko-fi">
+                              <a href="https://ko-fi.com/mazfeb" class="text-decoration-none text-light pt-2">
+                                  <img src="img/kofi.png" width="40px" alt="ko-fi">
+                                  <label class="pl-2" id="socialmedialabel">Buy me a Coffee!</label>
+                              </a>
+                          </p>
+                      </li>
+                      <li>
+                          <p title="instagram">
+                              <a href="https://www.instagram.com/mazfeb_/" class="text-decoration-none text-light pt-2">
+                                  <img src="img/ig.png" width="40px" alt="instagram">
+                                  <label class="pl-2" id="socialmedialabel">Instagram</label>
+                              </a>
+                          </p>
+                      </li>
+              </div>
+          </div>
+      </div>
+      <hr>
+        <!-- Copyright -->
+      <div class="footer-copyright text-light text-center pt-2">© 2020 Copyright: Muhammad Azra Febrian on
+        <a class="text-light text-decoration-non font-weight-bold" href="https://github.com/vewofdots"> GitHub</a>
       </div>
     </footer>
 </html>
