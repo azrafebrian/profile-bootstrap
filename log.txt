@@ -7,6 +7,7 @@ V.0.0.1.
 		- img, text
 	- Search bar
 		- search box (input), button
+
 - Tentang Saya
 	- Profil
 		-text, img
@@ -15,12 +16,12 @@ V.0.0.1.
 	- Footer
 		-button
 
-V.0.0.1.1
+V.0.0.1.1.
 - Footer
 	- Footer in home & tentang saya
 	- Copyright, linked to github
 
-V.0.0.1.2
+V.0.0.1.2.
 - Tentang Saya
 	- Kemampuan
 		- Programming, Menggambar, Menulis
@@ -29,8 +30,10 @@ V.0.0.2.
 - Index
 	- New look
 		- Added containers, Sign In form
+
 - Header
 	- Header in home & tentang saya changed for respons
+
 - Language
 	- Switched header words to English
 		- kontak saya = Contact
@@ -50,3 +53,12 @@ V.0.0.2.1.
 	- Re-arranging buttons
 		- Contact and Aboutme to the right
 		- Added some padding
+
+V.0.0.2.2.
+- Index
+	- Removed How To for now
+	- Added a direct form
+
+- Index:DirectForm
+	- Added required and modal
+
